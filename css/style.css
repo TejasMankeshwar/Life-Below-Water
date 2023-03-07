@@ -1,4 +1,66 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+}
+
+header {
+    background-color: rgb(17, 90, 90);
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+main {
+    min-height: calc(100vh - 65px -22px);
+}
+
+footer {
+    background-color: #575757;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    height: 22px;
+}
+
+nav ul {
+    display: flex;
+    /* border: 2px solid red; */
+    width: 85vw;
+    justify-content: flex-end;
+}
+
+nav ul li {
+
+    color: white;
+    list-style: none;
+    padding: 0px 10px;
+    align-self: flex-end;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+nav ul li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    min-height: calc(100vh - 87px);
+}
+
+.left-box {
+    width: 50vw;
+    background-color: #6e95eb;
+    min-height: calc(100vh - 87px);
+}
+
+.right-box {
+    width: 50vw;
+    background-color: #dd8e8e;
+    min-height: calc(100vh - 87px);
 }
