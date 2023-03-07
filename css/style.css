@@ -55,12 +55,28 @@ nav ul li:hover {
 
 .left-box {
     width: 50vw;
-    background-color: #6e95eb;
+    /* background-color: #6e95eb; */
     min-height: calc(100vh - 87px);
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/02/19/animal-1866808_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
 }
 
 .right-box {
     width: 50vw;
-    background-color: #dd8e8e;
+    /* background-color: #dd8e8e; */
     min-height: calc(100vh - 87px);
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/29/18/25/coral-2694453_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
+
+.left-box:hover{
+    filter: blur(5px);
+}
+
+.right-box:hover{
+    filter: blur(5px);
 }
