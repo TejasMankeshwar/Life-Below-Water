@@ -37,8 +37,15 @@ html, body {
   padding: 0;
 }
 
-.menu > li {
+.menu li a{
   margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Kanit', sans-serif;
+}
+
+.menu li a:hover{
+  font-weight: bold;
 }
 
 .menu-button-container {
@@ -252,16 +259,16 @@ html, body {
      #donationmid .custombtn a{
     font-size:26px;  
     color: white;
-     background-color: blue;
+     background-color: #0D5072;
     padding: 10px 40px;
     text-decoration: none;
     border-radius: 15px;
   }
 
      #donationmid .custombtn a:hover{
-    background-color: black;
-    color: yellow;
-    transition: 2s ease;
+    background-color: #002146;
+    color: rgb(180, 214, 233);
+    transition: 0.5s ease;
     
   }
 
