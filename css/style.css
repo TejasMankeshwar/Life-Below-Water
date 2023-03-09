@@ -237,6 +237,111 @@ html, body {
 }
 }*/
 
+@media (max-width: 800px) {
+  .flex-item-right-re, .flex-item-left-re {
+    flex: 100%;
+  }
+  .flex-item-left-re img{
+ width: 100%;
+ padding: 0px 30px;
+}
+
+#donationmid img {
+  width: 80%;
+  margin: 0px 10%;
+}
+
+.container {
+  width: 100%;
+}
+.title {
+  width: 100vw;
+}
+.button {
+  top: 65vh;
+  left: 25vw;
+}
+.header {
+  padding-top: 10px;
+  height: 15vh;
+}
+.logo img{
+  width: 260px;
+  padding-left: 0px;
+}
+.header ul {
+  background-color: #00B5E2;
+}
+.header ul li a {
+  color: white;
+  transition: 1s ease;
+}
+.header ul li a:hover {
+  color: white;
+  background-color: #002045;
+}
+.flex-item-left {
+ 
+  width: 100%;
+}
+.flex-item-left img {
+  padding: 0px;
+  width: 80%;
+  margin-left: 10%;
+}
+.flex-item-left p {
+  padding: 0px 30px;
+}
+.flex-item-left-re img {
+   padding: 0px;
+  width: 80%;
+  /* //margin-left: 10%; */
+}
+.flex-item-left-re p {
+   padding: 0px 30px;
+}
+.title {
+  top: 25vh;
+}
+.container:hover .title {
+  top: 25vh;
+}
+.button {
+  top: 50vh;
+}
+}
+
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
+@media (min-width: 48em) {
+
+
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+  .logo img {
+    width: 260px;
+    margin-left: 0px;
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+}
+
 
   #donation {
     width: 80vw; 
@@ -480,3 +585,4 @@ html, body {
     padding: 0px 30px;
     
   }
+
