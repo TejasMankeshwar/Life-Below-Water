@@ -2,7 +2,8 @@ Steps to visit the website:
 1. Clone the repository or download as zip
 2. Extract the zip file
 3. Open the clone or extracted file
-4. Open the index.htm or index.html file
+4. Open folder named public
+4. Open the index.html file
 
 You will now be redirected to the main webpage of our Website
 
